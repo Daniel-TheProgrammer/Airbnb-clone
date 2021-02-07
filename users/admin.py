@@ -3,6 +3,7 @@ from django.contrib.auth.admin import UserAdmin
 from . import models
 
 
+
 @admin.register(models.User)
 class CostomUserAdmin(UserAdmin):
 
