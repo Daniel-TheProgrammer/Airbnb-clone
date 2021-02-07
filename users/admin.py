@@ -4,6 +4,7 @@ from . import models
 
 
 
+
 @admin.register(models.User)
 class CostomUserAdmin(UserAdmin):
 
